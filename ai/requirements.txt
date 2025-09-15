@@ -1,0 +1,9 @@
+# notes butuh download miniconda / anaconda, commands di execute di anaconda prompt
+
+GitHub Link : https://github.com/Antiveg/MyGroceries
+
+conda create -n temp 
+
+conda activate temp
+
+conda install -c conda-forge pip=24.2 scikit-surprise=1.1.4 numpy fastapi uvicorn scikit-learn pandas scipy nltk
